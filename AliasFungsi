@@ -3,7 +3,7 @@ from geometri2D import luasLingkaran as llk
 def main():
   jarijari = 3
 
-  luas = llk(jari-jari)
+  luas = llk(jarijari)
 
   print("LINGKARAN")
   print("Jari-jari\t: ", jarijari)
