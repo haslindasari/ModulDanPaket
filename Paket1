@@ -1,0 +1,13 @@
+from Matematika.geometri2D import luasBujurSangkar
+
+def main():
+  sisis = 5
+  
+  luas = luasBujurSangkar(sisi)
+  
+  print("BUJUR SANGKAR")
+  print("Panjang sisi\t: ", sisi)
+  print("Luas\t\t= ", luas)
+  
+if __name__ == "__main__":
+  main()
