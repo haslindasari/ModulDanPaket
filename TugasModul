@@ -1,0 +1,9 @@
+import math
+def volumeBalok(p, l, t):
+  return p * l * t
+  
+def volumeKubus(s):
+  return s * s * s
+  
+def volumePrisma(l, t):
+  return l * t
