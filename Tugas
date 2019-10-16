@@ -1,0 +1,36 @@
+import Haslinda
+
+def main():
+
+  p = 8
+  l = 6
+  t = 7
+  
+  VB  = Haslinda.volumeBalok(p, l, t)
+  
+  print("Volume Balok")
+  print("Panjang\t: ", p)
+  print("Lebar\t: ", l)
+  print("Tinggi\t: ", t)
+  print("volume balok\t= ", VB)
+  
+  s = 6
+  
+  VK = Haslinda.volumeKubus(s)
+  
+  print("\nvolume kubus")
+  print("Sisi\t: ", s)
+  print("volume kubus\t= ", VK)
+  
+  l = 4
+  t = 6
+  
+  VP = Haslinda.volumePrisma(l, t)
+  
+  print("\nvolume prisma")
+  print("Lebar\t: ", l)
+  print("Tinggi\t: ", t)
+  print("volume prisma\t= ", VP)
+  
+if __name__ == "__main__":
+  main()
